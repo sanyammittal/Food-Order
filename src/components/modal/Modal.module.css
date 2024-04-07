@@ -1,0 +1,8 @@
+.dialog{
+    align-self: center;
+    margin: auto;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #e0b797;
+}

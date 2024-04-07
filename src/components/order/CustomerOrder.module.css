@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+.container {
+  max-width: 800px;
+  background-color: #e0b797;
+  margin: 20px auto;
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  padding: 30px 0;
+}
+
+.container:hover {
+  transform: scale(1.02);
+}
+.orderDates {
+  flex-basis: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid black;
+  line-height: 100%;
+}
+
+.orderDates p {
+  font-size: 1.3rem;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 350;
+}
+
+.orderDates p b {
+  font-weight: 450;
+}
+
+.customerDetails {
+  margin-top: 20px;
+}
+
+.customerDetails p {
+  font-size: 1.1rem;
+  font-family: "Josefin Sans", sans-serif;
+  margin-left: 20px;
+  font-weight: 350;
+}
+
+.customerDetails div {
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+.customerDetails b {
+  font-size: 1.2rem;
+  font-family: "Chakra Petch", sans-serif;
+  margin-left: 20px;
+  font-weight: 450;
+}
+
+.customerDetails .input {
+  width: 300px;
+  margin-left: 10px;
+  height: 30px;
+  padding-left: 10px;
+  font-size: 1.1rem;
+  font-family: "Chakra Petch", sans-serif;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  border: 1px solid #c75402;
+}
+
+.customerDetails span {
+  margin-left: 10px;
+  font-family: "Chakra Petch", sans-serif;
+}
+
+.customerDetails .orderItems {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 400;
+  margin-left: 40px;
+  margin-top: 3px;
+}
